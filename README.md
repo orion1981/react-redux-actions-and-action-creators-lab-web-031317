@@ -28,8 +28,6 @@ In one terminal instance run `npm start`, and in a second terminal instance run 
 
 >Note: If you're using the Learn IDE, you can use [jobs](https://help.learn.co/hc/en-us/articles/229922347-Running-multiple-processes-in-the-IDE-terminal) rather than multiple terminals. 
 
-You can also run  `mocha.run()` in your browser console to run the tests there. 
-
 ## But Where Do I Write My Code?
 
 By convention in Redux, we write our action creator functions in a folder called `actions`. For a small project, we can define all of the actions in a single file file called `index` and export them as named exports.
