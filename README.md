@@ -9,6 +9,10 @@
 
 ## Instructions
 
+If you haven't already, make sure to run `npm insatll -g webpack-dev-server` to get the webpack dev server installed on your machine. 
+
+>Note: If you're on the Learn IDE, this will have already been done for you. 
+
 Imagine we're building a movie app for users to keep track of their favorite movies. We'll be building out action creator functions so that the user can take the following actions.
 
 1. Add a new movie
