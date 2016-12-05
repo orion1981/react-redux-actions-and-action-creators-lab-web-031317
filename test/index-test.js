@@ -11,8 +11,8 @@ describe('movie actions', function() {
     })
   })
 
-  describe('adding a movie', function(){
-    it('returns the add movies action', function() {
+  describe('deleting a movie', function(){
+    it('returns the delete movies action', function() {
       let movie = {id: 5, title: 'Dead Poets Society', year: 1989};
       let action = deleteMovie(movie);
       expect(action.type).toEqual('DELETE_MOVIE');
