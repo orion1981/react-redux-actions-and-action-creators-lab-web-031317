@@ -33,8 +33,9 @@ describe('username actions', function(){
 
   describe('resetting a username', function(){
     it('resets a username to default', function(){
-      let action = resetUsername();
+      let action = resetUsername('Bob');
       expect(action.type).toEqual('RESET_USERNAME');
+      expect(action.oldUsername).toEqual('Bob')
       expect(action.username).toEqual('default');
     })
   })
