@@ -13,10 +13,10 @@ describe('movie actions', function() {
 
   describe('deleting a movie', function(){
     it('returns the delete movies action', function() {
-      let movie = {id: 5, title: 'Dead Poets Society', year: 1989};
-      let action = deleteMovie(movie);
+      let id = 5;
+      let action = deleteMovie(id);
       expect(action.type).toEqual('DELETE_MOVIE');
-      expect(action.movie.title).toEqual('Dead Poets Society');
+      expect(action.id).toEqual(5);
     })
   })
 })
