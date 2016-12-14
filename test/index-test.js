@@ -24,9 +24,10 @@ describe('movie actions', function() {
 describe('username actions', function(){
   describe('updating a username', function(){
     it('returns the update username action', function(){
-      let action = updateUsername('Miles');
+      let action = updateUsername('Bob', 'Miles');
       expect(action.type).toEqual('UPDATE_USERNAME');
-      expect(action.username).toEqual('Miles');
+      expect(action.oldUsername).toEqual('Bob');
+      expect(action.newUsername).toEqual('Miles');
     })
   })
 
