@@ -9,7 +9,7 @@
 
 ## Instructions
 
-If you haven't already, make sure to run `npm insatll -g webpack-dev-server` to get the webpack dev server installed on your machine. 
+If you haven't already, make sure to run `npm install -g webpack-dev-server` to get the webpack dev server installed on your machine. 
 
 >Note: If you're on the Learn IDE, this will have already been done for you. 
 
