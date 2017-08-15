@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 4,
-    "start": "2016-11-01T18:17:24.283Z",
-    "end": "2016-11-01T18:17:24.503Z",
-    "duration": 221
+    "start": "2017-08-15T20:57:47.695Z",
+    "end": "2017-08-15T20:57:47.854Z",
+    "duration": 159
   },
   "tests": [
     {
@@ -16,13 +16,13 @@
       "duration": 1,
       "currentRetry": 0,
       "err": {
-        "stack": "TypeError: (0 , _actions.addMovie) is not a function\n    at Context.<anonymous> (test/index-test.js:8:20)",
-        "message": "(0 , _actions.addMovie) is not a function"
+        "stack": "TypeError: Cannot read property 'title' of undefined\n    at Context.<anonymous> (test/index-test.js:10:14)",
+        "message": "Cannot read property 'title' of undefined"
       }
     },
     {
-      "title": "returns the add movies action",
-      "fullTitle": "movie actions adding a movie returns the add movies action",
+      "title": "returns the delete movies action",
+      "fullTitle": "movie actions deleting a movie returns the delete movies action",
       "duration": 0,
       "currentRetry": 0,
       "err": {
@@ -59,13 +59,13 @@
       "duration": 1,
       "currentRetry": 0,
       "err": {
-        "stack": "TypeError: (0 , _actions.addMovie) is not a function\n    at Context.<anonymous> (test/index-test.js:8:20)",
-        "message": "(0 , _actions.addMovie) is not a function"
+        "stack": "TypeError: Cannot read property 'title' of undefined\n    at Context.<anonymous> (test/index-test.js:10:14)",
+        "message": "Cannot read property 'title' of undefined"
       }
     },
     {
-      "title": "returns the add movies action",
-      "fullTitle": "movie actions adding a movie returns the add movies action",
+      "title": "returns the delete movies action",
+      "fullTitle": "movie actions deleting a movie returns the delete movies action",
       "duration": 0,
       "currentRetry": 0,
       "err": {
